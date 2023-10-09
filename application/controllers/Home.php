@@ -8,6 +8,6 @@ class Home extends CI_Controller {
 			'title'=>'Landing Page',
 			'app' => 'dashboard'
 		);
-		$this->load->view('main', $data);
+		$this->load->view('pengetahuan', $data);
 	}
 }
