@@ -1,19 +1,6 @@
 <div class="w-100">
     <div class="landing-section ls-1">
-        <div class="row mx-0 pt-4">
-            <div class="col-9 col-lg-8">
-                <div class="d-flex flex-row p-3">
-                    <img class="logo" src="<?=base_url()?>assets/images/landing/logo.png">
-                    <div class="d-flex flex-column justify-content-center pl-3">
-                        <h5 class="logo-text">MANAJEMEN PENGETAHUAN KEBENCANAAN</h5>
-                        <h6 class="logo-sub-text">Multi Hazard Early Warning System</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-lg-4 d-flex align-items-center justify-content-end">
-                <img class="btn-menu" src="<?=base_url()?>assets/images/landing/btn-menu.png">
-            </div>
-        </div>
+        <?php $this->load->view('header'); ?>
         <div class="w-75 p-0 p-lg-5 ml-5">
             <h1>WELCOME TO</h4>
             <h2>DISASTER KNOWLEDGE MANAGEMENT SYSTEM</h4>
@@ -52,6 +39,7 @@
         </div>
     </div>
 <div>
+<?php $this->load->view('footer'); ?>
 <script>
     $(document).ready(function() {
         let text = $("#contentStairs").html();

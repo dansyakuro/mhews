@@ -1,0 +1,64 @@
+body {    
+    font-family: 'Poppins' !important;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+th{
+  color:#044085;
+}
+td {
+    max-width: 100px; /* Ganti dengan lebar maksimum yang Anda inginkan */
+    /* Menghindari teks melingkar, jika perlu */
+    overflow: hidden; /* Mengatasi overflow jika konten terlalu besar */
+    text-overflow: ellipsis; /* Menampilkan elipsis (...) jika konten terlalu besar */
+}
+
+.header-logo {
+    width: 100px;
+}
+
+.header-logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color:#044085;
+}
+
+.header-logo-sub-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F28920;
+}
+
+.header-btn-menu {
+    padding-right: 50px;
+}
+
+.custom-toggle {
+    background-color: #044085;
+    color: #fff;
+    border: none;
+}
+
+.custom-toggle .dropdown-toggle{
+  display: none;
+}
+
+.custom-toggle:hover {
+    background-color: white;
+}
+
+.custom-dropdown {
+    background-color: #044085 !important;
+    color: white !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    color: #044085 !important;
+}

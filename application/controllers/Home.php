@@ -6,7 +6,7 @@ class Home extends CI_Controller {
 	{
 		$data = array(
 			'title'=>'Landing Page',
-			'app' => 'pengetahuan'
+			'app' => 'dashboard'
 		);
 		$this->load->view('main', $data);
 	}

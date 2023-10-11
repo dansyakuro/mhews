@@ -4,11 +4,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class PengetahuanController extends CI_Controller {
-	public function tampilkan_pengetahuan()
+	public function index()
 	{
 		$data = array(
-			'title'=>'Landing Page',
-			'app' => 'pengetahuan'
+			'title'=>'Pengetahuan',
+			'app' => 'pengetahuan/index'
 		);
 		$this->load->view('main', $data);
 	}
