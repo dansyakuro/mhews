@@ -19,6 +19,140 @@
     color: #fff;
     border: none;
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    background-color: #044085;
+    color: #fff;
+    width: 270px;
+    transition: margin 0.3s;
+    
+}
+
+#sidebar.show {
+    margin-left: 0;
+}
+
+#content {
+    transition: margin 0.3s;
+    padding: 15px;
+}
+
+.sidebar-dropdown {
+    cursor: pointer;
+}
+
+.dropdown-list {
+    background-color:white;
+    color:#044085;
+    display:none;
+}
+a.custom-link {
+color: #044085; /* Warna teks tautan */
+background-color: white; /* Warna latar belakang tautan */
+text-decoration: none; /* Menghapus garis bawah tautan */
+
+}
+
+#sidebar .nav-link {
+    color: #fff;
+}
+
+#sidebar .nav-item:hover {
+    background-color: #032c5e;
+}
+
+
+.custom-toggle .dropdown-toggle{
+  display: none;
+}
+
+.custom-toggle:hover {
+    background-color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: white;
+    color :#044085
+}
+.dropdown-menu,.dropdown-item {
+    background-color: #044085;
+    color : white;  
+    width : 300px;    
+}
+
+.custom-footer {
+    background-color: #044085;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.custom-footer img {
+    max-width: 100px; /* Sesuaikan lebar maksimum logo sesuai kebutuhan Anda */
+}
+.custom-search-box {
+            width: 400px;
+            height: 40px;
+        }
+.menu-button {
+            width: 160px;
+            height: 72px;
+            background-color: white;
+            color: #ABABAB;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-top: 2px solid #818181; /* Warna border atas */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-left:15px;
+        }
+.menu-button.active {
+            width: 160px;
+            height: 72px;
+            background-color: white;
+            color: #044085;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border-top: 2px solid #044085; /* Warna border atas */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-left:15px;
+        }
+
+        .menu-button:hover {
+            color: #044085; /* Warna latar belakang saat dihover */
+            border-top: 2px solid #044085;
+        }
+
+        th{
+          color:#044085;
+        }
+        td {
+        max-width: 100px; /* Ganti dengan lebar maksimum yang Anda inginkan */
+         /* Menghindari teks melingkar, jika perlu */
+        overflow: hidden; /* Mengatasi overflow jika konten terlalu besar */
+        text-overflow: ellipsis; /* Menampilkan elipsis (...) jika konten terlalu besar */
+    }
+        .custom-button {
+            width: 120px;
+            height: 32px;
+        }
+        /* Custom Search Box Styling */
+        .custom-search-box {
+            width: 400px;
+            height: 40px;
+            font-size: 16px;
+        }
     </style>
   </head>
   <body>

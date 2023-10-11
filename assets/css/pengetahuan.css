@@ -60,3 +60,14 @@ text-decoration: none; /* Menghapus garis bawah tautan */
     color : white;  
     width : 300px;    
 }
+
+.custom-footer {
+    background-color: #044085;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.custom-footer img {
+    max-width: 100px; /* Sesuaikan lebar maksimum logo sesuai kebutuhan Anda */
+}
