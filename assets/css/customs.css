@@ -6,17 +6,16 @@ body {
 }
 
 .landing-section {
-    width: auto;
-    height: 1024px;
+    width: 100%;
+    height: 1075px;
+    min-height: 100%;
     background-color: #B9BBBA;
 }
 
 .ls-1 {
-    background-image: url('../images/landing/landing-page1.jpg');
+    background-image: url('../images/landing/landing-page1.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
+    background-size: 100%;
 }
 
 .logo {
@@ -43,20 +42,20 @@ body {
 }
 
 .ls-1 h1 {
-    font-size: 60px;
+    font-size: 64px;
     font-weight: bold;
     color:black;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 10px;
 }
 
 .ls-1 h2 {
-    font-size: 36px;
+    font-size: 40px;
     color:#044085;
 }
 
 .ls-2 {
-    background-image: url('../images/landing/landing-page2.jpg');
+    background-image: url('../images/landing/landing-page2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -92,18 +91,81 @@ body {
     color:black;
 }
 
-.ls-3 h1 {
+.ls-3 {
+    background-image: url('../images/landing/landing-page3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.ls-3 h2 {
+.ls-3-left {
+    margin-top: 300px;
+    padding-left: 100px;
+}
+
+.ls-3-right {
+    margin-bottom: 300px;
 }
 
 .image-content {
-    width: 100%;
-    height: 100%;
+    width: 75%;
     object-fit: cover;
 }
 
 .line-h {
     width: 344px;
+}
+
+.ls-4 {
+    background-image: url('../images/landing/landing-page4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ls-4 .ls-content{
+    padding-left:200px;
+}
+
+@media only screen and (max-width: 575px) {
+    .logo {
+        width: 50px;
+        height: 60px;
+    }
+
+    .logo-text {
+        font-size: 8px;
+    }
+    
+    .logo-sub-text {
+        font-size: 8px;
+    }
+
+    .btn-menu {
+        width: 40px;
+        padding: 0;
+    }
+
+    .ls-1 h1 {
+        font-size: 14px;
+        padding: 0;
+    }
+    
+    .ls-1 h2 {
+        font-size: 8px;
+    }
+
+    .ls-header {
+        font-size: 30px;
+        line-height: 1.2;
+        color:#044085;
+    }
+    
+    .ls-content {
+        font-size: 18px;
+        line-height: 1.2;
+        color:black;
+    }
+
+    .ls-4 img {
+        width: 100%;
+    }
 }
