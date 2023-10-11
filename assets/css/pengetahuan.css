@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    background-color: #044085;
+    color: #fff;
+    width: 250px;
+    transition: margin 0.3s;
+}
+
+#sidebar.show {
+    margin-left: 0;
+}
+
+#content {
+    transition: margin 0.3s;
+    padding: 15px;
+}
+
+.sidebar-dropdown {
+    cursor: pointer;
+}
+
+.dropdown-list {
+    background-color:white;
+    color:#044085;
+    display:none;
+}
+a.custom-link {
+color: #044085; /* Warna teks tautan */
+background-color: white; /* Warna latar belakang tautan */
+text-decoration: none; /* Menghapus garis bawah tautan */
+
+}
+
+#sidebar .nav-link {
+    color: #fff;
+}
+
+#sidebar .nav-item:hover {
+    background-color: #032c5e;
+}
+
+
+.custom-toggle .dropdown-toggle{
+  display: none;
+}
+
+.custom-toggle:hover {
+    background-color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: white;
+    color :#044085
+}
+.dropdown-menu,.dropdown-item {
+    background-color: #044085;
+    color : white;  
+    width : 300px;    
+}
+
+.custom-footer {
+    background-color: #044085;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.custom-footer img {
+    max-width: 100px; /* Sesuaikan lebar maksimum logo sesuai kebutuhan Anda */
+}
