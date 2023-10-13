@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/main.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/landing.css">
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/pengetahuan.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/geospasial.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/leaflet-v1.9.4.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 
     <title><?=$title?></title>
   </head>
   <body>
     <script src="<?= base_url() ?>assets/js/jquery.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/leaflet-v1.9.4.js"></script>
     <script src="<?= base_url() ?>assets/js/customs.js"></script>
     <script src="<?= base_url() ?>assets/js/bootstrap.bundle.min.js"></script>
 

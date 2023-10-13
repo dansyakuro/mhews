@@ -9,14 +9,15 @@
         </div>
     </div>
     <div class="col-3 col-lg-4 d-flex align-items-center justify-content-end">
-        <div class="dropdown">
-            <button class="btn header-btn-menu" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="sidebar">
+            <button class="btn header-btn-menu" type="button" onclick="btnMenu()">
                 <img src="<?=base_url()?>assets/images/landing/btn-menu.png">
             </button>
-            <div class="dropdown-menu dropdown-menu-right custom-dropdown" aria-labelledby="dropdownMenuButton">
-                <a style="padding-left:20px;">
+            <div id="custom-sidebar-back" class="d-none" onclick="btnMenu()"></div>
+            <div id="custom-sidebar" class="d-none">
+                <a style="display:flex; justify-content: space-between; align-items:center; padding-left:20px; padding-top:10px;">
                     <b>Menu</b>
-                    <button type="button" class="close pr-3 text-white" aria-label="Close">
+                    <button type="button" onclick="btnMenu()" class="close pr-3 text-white" style="font-size: 30px;" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </a>
@@ -24,7 +25,7 @@
                 <a class="dropdown-item" href="<?= site_url('home'); ?>">Beranda</a>
                 <a class="dropdown-item" href="<?= site_url('repository'); ?>">Repositori</a>
                 <a class="dropdown-item" href="<?= site_url('pengetahuan'); ?>">Pengetahuan</a>
-                <a class="dropdown-item" href="#">Geospasial</a>
+                <a class="dropdown-item" href="<?= site_url('geospasial'); ?>">Geospasial</a>
                 <a class="dropdown-item" href="#">Tentang</a>
                 <a class="dropdown-item" href="#">Pembelajaran</a>
                 <a class="dropdown-item" href="#">Forum Diskusi</a>

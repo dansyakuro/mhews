@@ -33,30 +33,38 @@ td {
 }
 
 .header-btn-menu {
-    padding-right: 50px;
+    padding: 0;
+    margin-right: 50px;
 }
 
-.custom-toggle {
-    background-color: #044085;
-    color: #fff;
-    border: none;
-}
-
-.custom-toggle .dropdown-toggle{
-  display: none;
-}
-
-.custom-toggle:hover {
-    background-color: white;
-}
-
-.custom-dropdown {
+#custom-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    width: auto;
+    height: 100%;
     background-color: #044085 !important;
     color: white !important;
 }
 
+#custom-sidebar-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.5;
+    background-color: black !important;
+}
+
 .dropdown-item {
     color: white !important;
+}
+
+.dropdown-item > span {
+    font-size: 30px;
 }
 
 .dropdown-item:hover {
