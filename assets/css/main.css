@@ -70,3 +70,134 @@ td {
 .dropdown-item:hover {
     color: #044085 !important;
 }
+
+/* Repository Style */
+
+.haz {
+	color: #044085;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.tsu {
+	color: #000;
+	font-family: Poppins;
+	font-size: 8px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.card {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.mark {
+	display: inline-flex;
+	height: 32px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	background: #626262;
+	font-size: 14px;
+	color: #fff;
+	margin-left: 500px;
+	margin-top: 25px;
+}
+
+.cardData {
+	height: auto;
+	padding: 5px;
+	width: 1000px;
+	background-color: #fff;
+}
+
+.card-text {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+
+.recent {
+	background-color: #fff;
+	width: 1000px;
+	padding: 20px;
+	height: auto;
+	margin-top: 55px;
+	margin-left: 270px;
+}
+
+.imgRec {
+	border-top-left-radius: 48px;
+	border-top-right-radius: 48px;
+	height: 300px;
+}
+
+.txArtikel {
+	color: #000;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+.txArtikel2 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.btn {
+	height: 45px;
+	margin-top: -6px;
+	margin-left: 33px;
+	background-color: #f28920;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
+
+.imgFiltr {
+	margin-top: -56px;
+	margin-left: 30px;
+	margin-right: 110px;
+	text-align: center;
+}
+
+.xtrp {
+	display: flex;
+	width: 700px;
+	text-align: center;
+	margin-left: 300px;
+}
+
+.artikel {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.search-box {
+	height: 48px;
+	padding: 7px 15px;
+	border-radius: 5px;
+	width: 340px;
+	margin-left: 430px;
+	background-color: #f9f9f9;
+}
+
+.search-box input {
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.txt {
+	width: 700px;
+	margin: 20px;
+	margin-bottom: 80px;
+}

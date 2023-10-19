@@ -1,7 +1,13 @@
 #sidebar {
     background-color: #044085;
     color: #fff;
-    width: 250px;
+    width: 300px;
+    transition: margin 0.3s;
+}
+.sidebar1 {
+    background-color: white;
+    color: white;
+    width: 300px;
     transition: margin 0.3s;
 }
 
@@ -19,22 +25,47 @@
 }
 
 .dropdown-list {
-    background-color:white;
-    color:#044085;
+    background-color:#044085;
     display:none;
+    text-decoration: none
+    
+}
+.dropdown-list1 {
+    background-color:white;
+    display:none;
+    text-decoration: none;
+    
 }
 a.custom-link {
-    color: #044085; /* Warna teks tautan */
-    background-color: white; /* Warna latar belakang tautan */
-    text-decoration: none; /* Menghapus garis bawah tautan */
+    color: white; /* Warna teks tautan */
+      text-decoration: none; /* Menghapus garis bawah tautan */
 }
+a.custom-linkrepo {
+    color: black; /* Warna teks tautan */
+      text-decoration: none; /* Menghapus garis bawah tautan */
+}
+
+a.custom-link:hover {
+    color: #044085; /* Warna teks tautan */
+      text-decoration: none; /* Menghapus garis bawah tautan */
+}
+
+
 
 #sidebar .nav-link {
     color: #fff;
 }
+.sidebar1 .nav-link {
+    color: black;
+}
 
 #sidebar .nav-item:hover {
     background-color: #032c5e;
+}
+
+#sidebar .active {
+    background-color: #F28920;
+    color: white;
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -106,4 +137,37 @@ a.custom-link {
     width: 400px;
     height: 40px;
     font-size: 16px;
+}
+#provinsiSelect {
+    width: 184px;
+    height: 48px;
+    max-height: 150px; /* Anda bisa menyesuaikan tinggi maksimum sesuai kebutuhan */
+    overflow-y: auto; /* Aktifkan pengguliran jika daftar opsi lebih panjang dari tinggi maksimum */
+    border: none; /* Menghilangkan garis */
+    background-color:#044085 ;
+    color: white;
+}
+#provinsiSelect:hover{
+    background-color:#032c5e ;
+    
+}
+
+/* Gaya elemen option dalam dropdown */
+#provinsiSelect option {
+    font-size: 15px;
+}
+
+#provinsiSelect1 {
+    width: 200px;
+    height: 30px;
+    max-height: 150px; /* Anda bisa menyesuaikan tinggi maksimum sesuai kebutuhan */
+    overflow-y: auto; /* Aktifkan pengguliran jika daftar opsi lebih panjang dari tinggi maksimum */
+    border: none; /* Menghilangkan garis */
+    background-color:white ;
+    color: black;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
 }

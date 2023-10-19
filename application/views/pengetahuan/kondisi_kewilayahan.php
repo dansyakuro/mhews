@@ -24,6 +24,27 @@
             <td>868.00</td>
             
         </tr>
+        <tr>
+            <td>2.</td>
+            <td>Grimulya</td>
+            <td>56,04</td>
+            <td>10.702.00</td>
+            <td>11.206,00</td>
+            <td>21.908,00</td>
+            <td>391,00</td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Kalibawang</td>
+            <td>52,76</td>
+            <td>12.983,00</td>
+            <td>13.832,00</td>
+            <td>26.815,00</td>
+            <td>508,00</td>
+            
+        </tr>
+        
         <!-- Tambahkan baris data sesuai kebutuhan -->
     </tbody>
 </table>
@@ -51,6 +72,27 @@
         
             
         </tr>
+        <tr>
+            <td>2.</td>
+            <td>Bagian Tengah</td>
+            <td>500-1000</td>
+            <td> <2&deg;</td>
+            <td>15.00</td>
+            <td>Meliputi Kecamatan/Kapanewon ; Lendah, Pengasih, Sentolo, Kokap,</td>
+        
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Bagian Selatan</td>
+            <td>0-100</td>
+            <td> <16&deg;</td>
+            <td>26.50</td>
+            <td>Meliputi Kecamatan/Kapanewon ; Temon, Wates, Panjatan dan Galur</td>
+        
+            
+        </tr>
+        
         <!-- Tambahkan baris data sesuai kebutuhan -->
     </tbody>
 </table>
@@ -71,6 +113,22 @@
             <td>Bogowonto</td>
             <td>2.509.931.00</td>
             <td>Dekso</td>
+        
+            
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Bogowonto</td>
+            <td>2.509.931,00</td>
+            <td>Gesing</td>
+        
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Bogowonto</td>
+            <td>2.509.931,00</td>
+            <td>Keduren</td>
         
             
         </tr>
@@ -102,6 +160,26 @@
         
             
         </tr>
+        <tr>
+            <td>2.</td>
+            <td>Serang</td>
+            <td>23,16</td>
+            <td>60,00</td>
+            <td>8,00</td>
+            <td>650,00</td>
+        
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Ngrancah</td>
+            <td>9,12</td>
+            <td>50,00</td>
+            <td>10,00</td>
+            <td>0,00</td>
+        
+            
+        </tr>
         <!-- Tambahkan baris data sesuai kebutuhan -->
     </tbody>
 </table>
@@ -128,6 +206,22 @@
             <td>2.600.00</td>
             <td>7.372.00</td>
         </tr>
+        <tr>
+            <td>2.</td>
+            <td>3.063,00</td>
+            <td>138,00</td>
+            <td>0.00</td>
+            <td>0,00</td>
+            <td>3.197,00</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>3.872,00</td>
+            <td>588,00</td>
+            <td>0.00</td>
+            <td>0,00</td>
+            <td>4.454,00</td>
+        </tr>
         <!-- Tambahkan baris data sesuai kebutuhan -->
     </tbody>
 </table>
@@ -149,6 +243,20 @@
             <td>Temon</td>
             <td>175</td>
             <td>9</td>
+
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Wates</td>
+            <td>182</td>
+            <td>10</td>
+
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Panjatan</td>
+            <td>130</td>
+            <td>10</td>
 
         </tr>
         <!-- Tambahkan baris data sesuai kebutuhan -->

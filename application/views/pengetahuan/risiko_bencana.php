@@ -1,4 +1,3 @@
-
 <h5><b>Profil Risiko Wilayah</b></h5>
 <table class="table">
     <thead>
@@ -21,6 +20,24 @@
             <td>Sedang</td>
             <td>0.56</td>
             <td>Rendah</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Gempa Bumi</td>
+            <td>Tinggi</td>
+            <td>0.69</td>
+            <td>Tinggi</td>
+            <td>0.67</td>
+            <td>Sedang</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Tsunami</td>
+            <td>Tinggi</td>
+            <td>1.00</td>
+            <td>Sedang</td>
+            <td>0.60</td>
+            <td>Tinggi</td>
         </tr>
         <!-- Tambahkan baris data sesuai kebutuhan -->
     </tbody>
@@ -50,6 +67,26 @@
             <td>Sedang</td>
             <td>446.579</td>
             <td>Rendah</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Gempa Bumi</td>
+            <td>Maluku <br>Tenggara</td>
+            <td><button class="btn btn-info custom-button">VIEW</button></td>
+            <td>Tinggi</td>
+            <td>103.180,98</td>
+            <td>Sedang</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Gempa Bumi</td>
+            <td>Maluku <br>Tengah</td>
+            <td><button class="btn btn-info custom-button">VIEW</button></td>
+            <td>Sedang</td>
+            <td>795.380,99</td>
+            <td>Tinggi</td>
             <td>0</td>
         </tr>
         <!-- Tambahkan baris data sesuai kebutuhan -->
@@ -87,6 +124,34 @@
             <td>42.616,00</td>
             <td>70.939.00</td>
             <td>0.12</td>
+            <td>Sedang</td>
+            <td>Sedang</td>
+            <td>Tinggi</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Wates</td>
+            <td>Bendungan</td>
+            <td>Tsunami</td>
+            <td>350,55</td>
+            <td>6.132,00</td>
+            <td>78.676,00</td>
+            <td>70.939,00</td>
+            <td>0.12</td>
+            <td>Sedang</td>
+            <td>Sedang</td>
+            <td>Tinggi</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Panjatan</td>
+            <td>Bojong</td>
+            <td>Tsunami</td>
+            <td>389,97</td>
+            <td>3.918,00</td>
+            <td>27.313,00</td>
+            <td>30.805,00</td>
+            <td>0,00</td>
             <td>Sedang</td>
             <td>Sedang</td>
             <td>Tinggi</td>
